@@ -1,5 +1,4 @@
-import { LitElement } from 'lit';
-import { html } from 'lit-html';
+import { LitElement, html } from 'lit';
 
 class MyElement extends LitElement {
 
