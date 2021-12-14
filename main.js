@@ -6,7 +6,8 @@ function mainWindow() {
         width: 800,
         height: 600,
         webPreferences: {
-            nodeIntegration: true
+            nodeIntegration: true,
+            nodeIntegrationInWorker: true
         }
     })
 
