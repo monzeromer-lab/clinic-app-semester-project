@@ -5,8 +5,7 @@
   "main": "main.js",
   "scripts": {
     "test": "jest",
-    "start": "electron .",
-    "site": "nodemon server.js"
+    "start": "electron ."
   },
   "author": "Monzer Omer",
   "license": "ISC",
