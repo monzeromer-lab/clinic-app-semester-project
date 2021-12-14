@@ -26,5 +26,5 @@ app.on('ready', () => {
 
 // when quit
 app.on('quit', ()=>{
-    app.quit()
+    app.exit()
 });
