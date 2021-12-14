@@ -14,7 +14,7 @@ function mainWindow() {
     // win.loadURL('https://github.com')
 
     // Or load a local HTML file
-    win.loadFile('index.html')
+    win.loadFile('./src/index.html')
 
     // remove the defult menu of electron
     win.setMenuBarVisibility(false);
