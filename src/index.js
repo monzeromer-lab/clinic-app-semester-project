@@ -1,4 +1,4 @@
-import { LitElement, html } from 'lit';
+import {LitElement, html} from '../../node_modules/lit-element/lit-element.js'
 
 class MyElement extends LitElement {
 
