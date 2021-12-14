@@ -1,4 +1,4 @@
-import { app, browserWindow } from 'electron';
+const { app, browserWindow } = require('electron');
 
 // start new window
 function mainWindow() {

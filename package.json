@@ -7,7 +7,6 @@
     "test": "jest",
     "start": "electron ."
   },
-  "type": "module",
   "author": "Monzer Omer",
   "license": "ISC",
   "devDependencies": {
