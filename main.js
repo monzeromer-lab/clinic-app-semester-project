@@ -1,4 +1,4 @@
-const { app, BrowserWindow} = require('electron');
+const { app, BrowserWindow, Menu } = require('electron');
 
 // start new window
 function mainWindow() {
@@ -12,6 +12,10 @@ function mainWindow() {
 
     // Or load a local HTML file
     // win.loadFile('index.html')
+
+    // remove the defult menu of electron
+    win.setMenuBarVisibility(false);
+
 }
 
 // When close all windows
@@ -25,6 +29,6 @@ app.on('ready', () => {
 })
 
 // when quit
-app.on('quit', ()=>{
+app.on('quit', () => {
     app.exit()
 });
