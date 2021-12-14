@@ -23,3 +23,8 @@ app.on('window-all-closed', () => {
 app.on('ready', () => {
     mainWindow();
 })
+
+// when quit
+app.on('quit', ()=>{
+    app.quit()
+});
