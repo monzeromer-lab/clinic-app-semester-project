@@ -8,5 +8,9 @@
     "start": "electron ."
   },
   "author": "Monzer Omer",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^16.0.5",
+    "electron-builder": "^22.14.5"
+  }
 }
