@@ -1,5 +1,5 @@
 #formSide{
-    margin-top: 30%;
+    margin-top: 3%;
 }
 
 .loginPageImage{
@@ -11,4 +11,5 @@
 form{
     vertical-align: middle;
     place-self: center;
+    margin-top: 1%;
 }
