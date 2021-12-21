@@ -12,4 +12,7 @@
 
 form{
     vertical-align: middle;
+    align-items: center;
+    align-self: center;
+    align-content: center;
 }
