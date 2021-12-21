@@ -1,9 +1,7 @@
-#blue{
-    background-color: blue;
+#formSide{
+    margin-top: 30%;
 }
-#red{
-    background-color: red;
-}
+
 .loginPageImage{
     rotate: 3,4,5;
     border: 1px none;
